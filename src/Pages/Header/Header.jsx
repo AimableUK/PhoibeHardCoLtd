@@ -1,8 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import PhoibeHardCoLtdLogo from "../../assets/PhoibeHardCoLtdLogo.png";
+import { Link } from "react-router-dom";
 
 const Header = ({ onCartClick }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const [selectedMenuItem, setSelectedMenuItem] = useState("home");
+
+  useEffect(() => {
+    const pathMap = {
+      "/": "home",
+      "/products": "products",
+      "/aboutus": "aboutus",
+      "/contactus": "contactus",
+    };
+    setSelectedMenuItem(pathMap[location.pathname] || "");
+  }, [location.pathname]);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -26,30 +39,46 @@ const Header = ({ onCartClick }) => {
               </a>
             </div>
             <div className="hidden md:flex items-center space-x-1">
-              <a
-                href="#"
-                className="py-4 px-2 text-primary font-semibold border-b-4 border-accent"
+              <Link
+                to="/"
+                className={`${
+                  selectedMenuItem === "home" ? "text-primary border-b-4 border-accent" : ""
+                } py-4 px-2 text-muted font-semibold`}
               >
                 Home
-              </a>
-              <a
-                href="#"
-                className="py-4 px-2 text-muted font-semibold hover:text-primary transition duration-300"
+              </Link>
+
+              <Link
+                to="/products"
+                className={`${
+                  selectedMenuItem === "products"
+                    ? "text-primary border-b-4 border-accent"
+                    : ""
+                } py-4 px-2 text-muted font-semibold hover:text-primary transition duration-300`}
               >
                 Products
-              </a>
-              <a
-                href="#"
-                className="py-4 px-2 text-muted font-semibold hover:text-primary transition duration-300"
+              </Link>
+
+              <Link
+                to="/aboutus"
+                className={`${
+                  selectedMenuItem === "aboutus"
+                    ? "text-primary border-b-4 border-accent"
+                    : ""
+                } py-4 px-2 text-muted font-semibold hover:text-primary transition duration-300`}
               >
                 About Us
-              </a>
-              <a
-                href="#"
-                className="py-4 px-2 text-muted font-semibold hover:text-primary transition duration-300"
+              </Link>
+              <Link
+                to="/contactus"
+                className={`${
+                  selectedMenuItem === "contactus"
+                    ? "text-primary border-b-4 border-accent"
+                    : ""
+                } py-4 px-2 text-muted font-semibold hover:text-primary transition duration-300`}
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-3">
@@ -92,36 +121,36 @@ const Header = ({ onCartClick }) => {
       <div className={`${menuOpen ? "block" : "hidden"} mobile-menu md:hidden`}>
         <ul>
           <li className="active">
-            <a
-              href="#"
+            <Link
+              to="/"
               className="block text-sm px-2 py-4 text-white bg-primary font-semibold"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/products"
               className="block text-sm px-2 py-4 hover:bg-primary hover:text-white transition duration-300"
             >
               Products
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/contactus"
               className="block text-sm px-2 py-4 hover:bg-primary hover:text-white transition duration-300"
             >
               Contact Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/aboutus"
               className="block text-sm px-2 py-4 hover:bg-primary hover:text-white transition duration-300"
             >
               About Us
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

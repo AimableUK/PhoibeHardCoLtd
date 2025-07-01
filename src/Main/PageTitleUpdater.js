@@ -10,9 +10,11 @@ const PageTitleUpdater = () => {
     if (location.pathname === "/") {
       title = "Phoibe Hard Company Ltd";
     } else if (location.pathname === "/aboutus") {
-      title = "AboutUs - Phoibe Hard Company Ltd";
-    } else if (location.pathname === "/settings") {
-      title = "Settings - Phoibe Hard Company Ltd";
+      title = "About Us - Phoibe Hard Company Ltd";
+    } else if (location.pathname === "/products") {
+      title = "Products - Phoibe Hard Company Ltd";
+    } else if (location.pathname === "/contactus") {
+      title = "Contact Us - Phoibe Hard Company Ltd";
     } else {
       title = "404 Page Not Found";
     }
