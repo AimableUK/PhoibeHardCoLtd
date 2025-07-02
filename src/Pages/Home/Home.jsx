@@ -73,14 +73,12 @@ const Home = () => {
           >
             <img
               src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-              alt="Women's clothing"
+              alt="Metals"
               className="w-full h-64 object-cover transition-opacity group-hover:opacity-75"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-4">
-              <h3 className="text-xl font-semibold text-white">
-                Women's Clothing
-              </h3>
+              <h3 className="text-xl font-semibold text-white">Metals</h3>
               <p className="mt-1 text-sm text-gray-300">Shop Now</p>
             </div>
           </a>
@@ -90,14 +88,12 @@ const Home = () => {
           >
             <img
               src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
-              alt="Girls' clothing"
+              alt="Iron Sheets"
               className="w-full h-64 object-cover transition-opacity group-hover:opacity-75"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-4">
-              <h3 className="text-xl font-semibold text-white">
-                Girls' Clothing
-              </h3>
+              <h3 className="text-xl font-semibold text-white">Iron Sheets</h3>
               <p className="mt-1 text-sm text-gray-300">Shop Now</p>
             </div>
           </a>
@@ -107,14 +103,12 @@ const Home = () => {
           >
             <img
               src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1112&q=80"
-              alt="Women's shoes"
+              alt="Steel Bar"
               className="w-full h-64 object-cover transition-opacity group-hover:opacity-75"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-4">
-              <h3 className="text-xl font-semibold text-white">
-                Women's Shoes
-              </h3>
+              <h3 className="text-xl font-semibold text-white">Steel Bar</h3>
               <p className="mt-1 text-sm text-gray-300">Shop Now</p>
             </div>
           </a>
@@ -129,7 +123,7 @@ const Home = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-4">
-              <h3 className="text-xl font-semibold text-white">Girls' Shoes</h3>
+              <h3 className="text-xl font-semibold text-white">Pipes</h3>
               <p className="mt-1 text-sm text-gray-300">Shop Now</p>
             </div>
           </a>
@@ -143,7 +137,7 @@ const Home = () => {
           </h2>
           <div className="flex space-x-4">
             <div className="relative">
-              <select className="appearance-none bg-white border border-gray-300 rounded-md py-2 pl-3 pr-8 text-sm focus:outline-none focus:ring-pink-500 focus:border-pink-500">
+              <select className="appearance-none bg-white border border-gray-300 rounded-md py-2 pl-3 pr-8 text-sm focus:outline-none focus:ring-accent focus:border-accent">
                 <option>Sort by: Featured</option>
                 <option>Price: Low to High</option>
                 <option>Price: High to Low</option>
@@ -164,7 +158,7 @@ const Home = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
-                alt="Floral dress"
+                alt="Tube 40/40"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -187,10 +181,10 @@ const Home = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Floral Summer Dress
+                      Tube 40/40
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Women's Dress</p>
+                  <p className="mt-1 text-sm text-gray-500">Metals</p>
                 </div>
                 <p className="text-sm font-medium text-accent">$39.99</p>
               </div>
@@ -206,7 +200,7 @@ const Home = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
-                alt="Girl's dress"
+                alt="Iron Sheets"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -224,10 +218,10 @@ const Home = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Pink Polka Dot Dress
+                      Azinc
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Girl's Dress</p>
+                  <p className="mt-1 text-sm text-gray-500">Iron Sheets</p>
                 </div>
                 <p className="text-sm font-medium text-accent">$29.99</p>
               </div>
@@ -243,7 +237,7 @@ const Home = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1112&q=80"
-                alt="Women's shoes"
+                alt="Steel bar"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -266,10 +260,10 @@ const Home = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      White Sneakers
+                      Ferabeto 12
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Women's Shoes</p>
+                  <p className="mt-1 text-sm text-gray-500">Steel Bar</p>
                 </div>
                 <p className="text-sm font-medium text-accent">$49.99</p>
               </div>
@@ -285,7 +279,7 @@ const Home = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                alt="Girl's shoes"
+                alt="Pipes"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -306,10 +300,10 @@ const Home = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Sparkly Sandals
+                      PVC PN6 110
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Girl's Shoes</p>
+                  <p className="mt-1 text-sm text-gray-500">Pipes</p>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-accent">$24.99</p>
@@ -325,6 +319,7 @@ const Home = () => {
           </div>
         </div>
 
+        {/* View All Products Button */}
         <div className="mt-12 text-center">
           <Link to="/products">
             <button className="inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 active:bg-gray-100">

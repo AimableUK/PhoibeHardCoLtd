@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CartSideBar = ({ isOpen, onClose }) => {
   return (
@@ -107,14 +108,16 @@ const CartSideBar = ({ isOpen, onClose }) => {
               </div>
               <div className="mt-6 flex justify-center text-sm text-gray-500">
                 <p>
-                  or{" "}
-                  <button
-                    type="button"
-                    onClick={onClose}
-                    className="text-accent font-medium hover:text-primary"
-                  >
-                    Continue Shopping →
-                  </button>
+                  or
+                  <Link to="/products">
+                    <button
+                      type="button"
+                      onClick={onClose}
+                      className="text-accent font-medium hover:text-primary"
+                    >
+                      Continue Shopping →
+                    </button>
+                  </Link>
                 </p>
               </div>
             </div>

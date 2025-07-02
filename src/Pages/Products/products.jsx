@@ -31,7 +31,7 @@ const products = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
-                alt="Floral dress"
+                alt="Tube 40/40"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -54,10 +54,10 @@ const products = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Floral Summer Dress
+                      Tube 40/40
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Women's Dress</p>
+                  <p className="mt-1 text-sm text-gray-500">Metals</p>
                 </div>
                 <p className="text-sm font-medium text-accent">$39.99</p>
               </div>
@@ -73,7 +73,7 @@ const products = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
-                alt="Girl's dress"
+                alt="Iron Sheets"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -91,10 +91,10 @@ const products = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Pink Polka Dot Dress
+                      Azinc
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Girl's Dress</p>
+                  <p className="mt-1 text-sm text-gray-500">Iron Sheets</p>
                 </div>
                 <p className="text-sm font-medium text-accent">$29.99</p>
               </div>
@@ -110,7 +110,7 @@ const products = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1112&q=80"
-                alt="Women's shoes"
+                alt="Steel bar"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -133,10 +133,10 @@ const products = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      White Sneakers
+                      Ferabeto 12
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Women's Shoes</p>
+                  <p className="mt-1 text-sm text-gray-500">Steel Bar</p>
                 </div>
                 <p className="text-sm font-medium text-accent">$49.99</p>
               </div>
@@ -152,7 +152,7 @@ const products = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                alt="Girl's shoes"
+                alt="Pipes"
                 className="w-full h-80 object-cover"
               />
               <div className="absolute top-2 right-2">
@@ -173,10 +173,10 @@ const products = () => {
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Sparkly Sandals
+                      PVC PN6 110
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">Girl's Shoes</p>
+                  <p className="mt-1 text-sm text-gray-500">Pipes</p>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-accent">$24.99</p>
