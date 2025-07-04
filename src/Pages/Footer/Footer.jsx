@@ -11,34 +11,38 @@ const Footer = () => {
             aria-label="Footer"
           >
             <div className="px-5 py-2">
-              <Link to="/">
-                <a className="text-base text-gray-500 hover:text-gray-900">
-                  Home
-                </a>
+              <Link
+                to="/"
+                className="text-base text-gray-500 hover:text-gray-900"
+              >
+                Home
               </Link>
             </div>
 
             <div className="px-5 py-2">
-              <Link to="/products">
-                <a className="text-base text-gray-500 hover:text-gray-900">
-                  Products
-                </a>
+              <Link
+                to="/products"
+                className="text-base text-gray-500 hover:text-gray-900"
+              >
+                Products
               </Link>
             </div>
 
             <div className="px-5 py-2">
-              <Link to="/aboutus">
-                <a className="text-base text-gray-500 hover:text-gray-900">
-                  About Us
-                </a>
+              <Link
+                to="/aboutus"
+                className="text-base text-gray-500 hover:text-gray-900"
+              >
+                About Us
               </Link>
             </div>
 
             <div className="px-5 py-2">
-              <Link to="/contactus">
-                <a className="text-base text-gray-500 hover:text-gray-900">
-                  Contact Us
-                </a>
+              <Link
+                to="/contactus"
+                className="text-base text-gray-500 hover:text-gray-900"
+              >
+                Contact Us
               </Link>
             </div>
           </nav>
